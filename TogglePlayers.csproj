@@ -52,6 +52,9 @@
         <Compile Include="TogglePlayers.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="README.md" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="AfterBuild">
         <Copy SourceFiles="bin\Release\TogglePlayers.dll" DestinationFolder="S:\SteamLibrary\steamapps\common\AdventureQuest3D\aq3d\AQ3D_Data\Managed">
